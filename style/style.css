@@ -65,15 +65,27 @@
     height: 100%;
     width: 100%;
 }
-
-@media screen and (max-width :576px) {
+@media screen and (max-width :768px) {
     #overlay{
-        height: 50%;
+        height: 60%;
     }
     #close-btn{
-        top:25%;
+        top:20%;
         
     
     }
     
+@media screen and (max-width :576px) {
+    #overlay{
+        height: 40%;
+    }
+    #close-btn{
+        top:30%;
+        
+    
+    }
+    
+}
+
+
 }
