@@ -11,6 +11,7 @@ for(var i =0; i< img.length; i++){
          imgOverlay.src = e.target.src;
          currentIndexOfImage = (Array.from(img)).indexOf(e.target);
          fixedOverlay.classList.replace("d-none", "d-flex");
+        //  fixedOverlay.classList.replace("opacity-1", "opacity-0");
         //  fixedOverlay.classList.add("d-flex");
    })
 }
