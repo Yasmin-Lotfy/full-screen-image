@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full screen iamges</title>
+    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class= "mt-4 fw-bolder text-center text-capitalize">this is my full screen web app</h2>
+        <div class="row mt-5 gy-5">
+            <div class="col-md-4">
+                <div class="item position-relative">
+                    <img src="images/portfolio-details-1.jpg" class="w-100" alt="">
+                    <div class="overlay text-center position-absolute">
+                        <h5 class="m-0 text-muted text-capitalize">title</h5>
+                        <p class="m-0 text-muted text-capitalize">hello from the other side</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="item position-relative">
+                    <img src="images/portfolio-details-2.jpg" class="w-100" alt="">
+                    <div class="overlay text-center position-absolute">
+                        <h5 class="m-0 text-muted text-capitalize">title</h5>
+                        <p class="m-0 text-muted text-capitalize">hello from the other side</p>
+                    </div>
+                </div>
+            </div> <div class="col-md-4">
+                <div class="item position-relative">
+                    <img src="images/portfolio-details-3.jpg" class="w-100" alt="">
+                    <div class="overlay text-center position-absolute">
+                        <h5 class="m-0 text-muted text-capitalize">title</h5>
+                        <p class="m-0 text-muted text-capitalize">hello from the other side</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="item position-relative">
+                    <img src="images/post-1.jpg" class="w-100" alt="">
+                    <div class="overlay text-center position-absolute">
+                        <h5 class="m-0 text-muted text-capitalize">title</h5>
+                        <p class="m-0 text-muted text-capitalize">hello from the other side</p>
+                    </div>
+                </div>
+            </div> <div class="col-md-4">
+                <div class="item position-relative">
+                    <img src="images/post-2.jpg" class="w-100" alt="">
+                    <div class="overlay text-center  position-absolute">
+                        <h5 class="m-0 text-muted text-capitalize">title</h5>
+                        <p class="m-0  text-muted text-capitalize">hello from the other side</p>
+                    </div>
+                </div>
+            </div> <div class="col-md-4">
+                <div class="item position-relative">
+                    <img src="images/post-3.jpg" class="w-100" alt="">
+                    <div class="overlay text-center position-absolute">
+                        <h5 class="m-0 text-muted text-capitalize">title</h5>
+                        <p class="m-0 text-muted text-capitalize">hello from the other side</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="fixed-overlay" class="overlay-all d-none justify-content-center align-items-center">
+        <div class="overlay-content text-center d-flex align-items-center justify-content-center position-relative w-50 h-75">
+                <img  id ="overlay" src="images/portfolio-details-2.jpg" alt="" class="w-100 h-100"> 
+                <i id="close-btn" class="position-absolute fa-regular fa-circle-xmark"></i>
+                <i id="right" class="position-absolute fa-solid fa-chevron-right"></i>
+                <i id="left" class="position-absolute fa-solid fa-chevron-left"></i>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
